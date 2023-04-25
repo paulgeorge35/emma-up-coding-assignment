@@ -1,14 +1,10 @@
 ## Installation
 
 ```bash
-$ pnpm install
-```
-
-## Generating Prisma Client
-
-```bash
 # installing prisma
 $ pnpx prisma
+
+$ pnpm install
 
 # generating client
 $ prisma generate
@@ -25,4 +21,10 @@ $ pnpm run start:dev
 
 # production mode
 $ pnpm run start:prod
+```
+
+## Accessing SwaggerUI
+
+```bash
+localhost:3000/api
 ```
